@@ -2,6 +2,14 @@
 // API_KEY for maps api
 let API_KEY = "a8e71c9932b20c4ceb0aed183e6a83bb";
 
+var input =document.getElementById('city-input')
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("myBtn").click();
+  }
+});
+
 
 getWeatherData = (city) => {
   const URL = "https://api.openweathermap.org/data/2.5/weather";
