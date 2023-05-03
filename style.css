@@ -7,7 +7,15 @@
     color: #ffd23f;
     font-family: sans-serif;
 }
-.btn btn-lg-btn-dark{
+.btn-btn-lg-btn-dark{
     background-color: black;
     color: blanchedalmond;
+    margin: 20px;
+    border-radius: 2px;
 }
+/* element.style {
+    background: black;
+    color: white;
+    /* padding: 20px; */
+    /* margin: 20px;
+} */ 
